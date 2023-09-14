@@ -18,8 +18,8 @@ app.use(cors({
 }));
 
 app.get("/", (req, res) => {
-    res.send("Welcome")
-})
+    res.send(`Welcome to Person API, click on this <a href="https://tasktwo-u833.onrender.com/api">LINK</a> to see existing people. visit the README.md file for more information on how to interact with the API`)
+});
 
 
 app.use("/api", router);
